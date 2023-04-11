@@ -1,0 +1,15 @@
+/* Luo kaksi oliota, kimmo ja oona. Anna niille esimerkkitulostuksen ja jo olemassaolevan koodin mukaan tarvittavat jäsenet. 
+
+Osa koodista tehtävässä, tässä lisäys */
+
+var kimmo = new Object();
+kimmo.etunimi = "Kimmo";
+kimmo.sukunimi = "Koodari";
+kimmo.ika = 20;
+kimmo.nimi = function() {return this.etunimi + " " + this.sukunimi}
+
+var oona = new Object();
+oona.etunimi = "Oona";
+oona.sukunimi = "Ohjelmoija";
+oona.ika = 32;
+oona.nimi = function() {return this.etunimi + " " + this.sukunimi}
