@@ -1,0 +1,11 @@
+/* 
+HTML-sivulta löytyy <p>-tyypin elementti, jolla on id "teksti". 
+Muokkaa sen sisältö esimerkkitulostuksen mukaiseksi console.log()-komentojen välissä.
+
+<body>
+    <p id="teksti">Muokkaa minua!</p>
+</body> 
+
+Osa koodistä tehtävässä, tässä lisäys */
+
+document.getElementById("teksti").innerHTML = "JavaScript on helppoa ja hauskaa!";
