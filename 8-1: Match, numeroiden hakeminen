@@ -1,0 +1,22 @@
+/* Hae ja tulosta kaikki lauseessa olevat numerot yhtenä taulukkona.
+Jos lauseessa ei ole numeroita, tulosta "Ei numeroita!". 
+Kokeile tehdä tarkistus onko lauseessa numeroita käyttämällä test()-metodia. 
+
+Osa koodista tehtävässä, tässä lisäys */
+
+var testi = /\d/g;
+var numerot;
+var numerotMerkkijonona = []
+if (testi.test(lause)){
+numerot = (lause.match(testi));
+for (var i in numerot){
+numerotMerkkijonona += (numerot[i]) + ',';
+}
+numerotMerkkijonona = numerotMerkkijonona.substring(0,numerotMerkkijonona.length - 1);
+console.log(numerotMerkkijonona);
+}
+
+else{
+console.log("Ei numeroita!");
+}
+
