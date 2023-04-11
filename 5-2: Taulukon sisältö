@@ -1,0 +1,34 @@
+/* Esittele ja alusta tyhjä taulukko. Luo lisäksi kaksi funktiota:
+
+lisaaLuku() lukee arvon HTML-dokumentissa olevasta tekstikentästä (id="luku") ja lisää tämän taulukon loppuun.
+
+tulostaTiedot() kirjoittaa konsoliin ensin alkioiden lukumäärän, sitten keskiarvon.
+
+HTML-sivulla on kunkin funktion kutsumista varten painikkeet. */
+
+var taulukko =[]
+var sum=0
+
+
+
+function lisaaLuku(){
+var luku = parseInt(document.getElementById("luku").value);
+taulukko.push(luku)
+}
+
+
+
+function tulostaTiedot() {
+var pituus=taulukko.length
+
+
+for (var i = 0; i < pituus; i++) {
+sum += taulukko[i]
+}
+var avg=sum/pituus
+
+
+console.log("Taulukossa on "+pituus+" arvoa.")
+console.log("Lukujen keskiarvo on " +avg)
+
+}
