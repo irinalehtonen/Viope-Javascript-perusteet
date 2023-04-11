@@ -1,0 +1,8 @@
+/* Ohjelman lopussa kutsutaan funktiota jokuFunktio(), joka tulostaa konsoliin "Hei, olen funktio!". Kirjoita tämä funktio. 
+
+Osa koodistä tehtävässä, tässä lisäys */
+
+function jokuFunktio() {
+	var hei = "Hei, olen funktio!";
+	console.log(hei);
+}
