@@ -1,0 +1,22 @@
+/* Luo kaksi muuttujaa, joihin talletat kokonaislukutyyppiset arvot 17 ja 3. 
+Luo lisäksi 5 muuttujaa, joihin talletat aiemmin luomiesi muuttujien välisen summan, erotuksen, tulon, osamäärän ja jakojäännöksen. 
+Lopuksi, tulosta muuttujien arvot mallin mukaisesti.
+
+Huomaa, että muuttujan nimessä ei saa olla ääkkösiä. 
+Esimerkiksi osamäärän voisi tallentaa muuttujaan nimeltä "osamaara", muttei "osamäärä". */
+
+var num1 = 17;
+var num2 = 3;
+
+var summa = num1 + num2;
+var erotus = num1 - num2;
+var tulo = num1 * num2;
+var osamaara = num1 / num2;
+var jakojaannos = num1 % num2;
+
+console.log("Luvut ovat " +num1, "ja " +num2);
+console.log("Summa on " +summa);
+console.log("Erotus on " +erotus);
+console.log("Tulo on " +tulo);
+console.log("Osamäärä on " +osamaara);
+console.log("Jakojäännös on " +jakojaannos);
