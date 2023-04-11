@@ -1,0 +1,24 @@
+/* Verkkosivulla kysytään käyttäjän ikää. Syötetty arvo on noudettu valmiiksi, mutta sinun tulee täyttää puuttuva koodi. 
+Sivun kutsuessa funktiota tarkistaIka(), tulosta konsoliin ensin "Syötetty ikä: [ikä]", 
+ja tämän perään seuraavien ohjeiden mukaisesti tekstiä:
+
+18 vuotta tai yli: "Käyttäjä on täysi-ikäinen."
+
+Yli 0 vuotta: "Käyttäjä ei ole vielä täysi-ikäinen."
+
+Muussa tapauksessa: "Virheellinen syöte!" 
+
+Osa koodista tehtävässä, tässä lisäys */
+
+
+console.log("Syötetty ikä: " +ika);
+
+	if(ika >= 18) {
+		console.log("Käyttäjä on täysi-ikäinen.");
+	}
+	else if(ika > 0) {
+		console.log("Käyttäjä ei ole vielä täysi-ikäinen.")
+	}
+	else {
+		console.log("Virheellinen syöte!");
+	}
