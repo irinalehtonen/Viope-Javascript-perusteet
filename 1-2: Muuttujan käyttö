@@ -1,0 +1,5 @@
+/* Esittele muuttuja käyttäen var-sanaa ja alusta se arvolla 5. Tulosta konsoliin "Muuttujan arvo on: 5" käyttäen muuttujaa. */
+
+var muuttuja = 5;
+
+console.log("Muuttujan arvo on: " +muuttuja);
