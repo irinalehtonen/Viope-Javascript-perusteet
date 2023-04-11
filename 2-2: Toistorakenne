@@ -1,0 +1,14 @@
+/* Tee toistorakenne, joka tulostaa konsoliin parittomat luvut välillä 1-10, 
+mutta alkaen luvusta 10 ja pienenevään suuntaan.
+
+Vinkki: luvun parittomuuden voi tarkistaa sen ja luvun 2 jakojäännöksen avulla. */
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+
+for (var i = arr.length - 1; i >= 0; i--) {
+if (arr[i] % 2 !== 0) {
+console.log(arr[i] + "");
+}
+}
+
